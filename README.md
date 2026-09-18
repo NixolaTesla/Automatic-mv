@@ -20,4 +20,4 @@ Running: ./automove
 
 STILL A W.I.P! Also if you wanna add something ending with /* (e.g Downloads/*) you should format it like this: ./automove "Downloads/*" /example/dir
 
-IMPORTANT: you will need to move all the files inside of Automatic-mv/ after cloning or this wont work, ill probably fix it in the future, just thought id upload this here because i need to use this tool on my server + i thought maybe someone else might find this useful too
+IMPORTANT: you will need to move all the files inside of Automatic-mv/ out of it and into another directory after cloning or the tool wont work, ill probably fix it in the future, just thought id upload this here because i need to use this tool on my server + i thought maybe someone else might find this useful too

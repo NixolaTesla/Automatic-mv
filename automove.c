@@ -66,7 +66,7 @@ int main(int argc, char *argv[]){
                 char command[512];
 
                 snprintf(command, sizeof(command),
-                         "sudo mv %s %s",
+                         "mv %s %s",
                          dirr[0], dirr[1]);
 
                 pid_t pid = fork();
@@ -94,6 +94,8 @@ int main(int argc, char *argv[]){
                     exit(1);
                 }
             }
+
+	    sleep(3);
         }
     }
 
